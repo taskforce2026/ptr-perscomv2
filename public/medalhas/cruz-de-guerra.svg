@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 130" width="100" height="130">
+<defs>
+<radialGradient id="m" cx="0.4" cy="0.35" r="0.7"><stop offset="0" stop-color="#fff3c4"/><stop offset="0.5" stop-color="#e0b84a"/><stop offset="1" stop-color="#a8841c"/></radialGradient>
+<clipPath id="f"><path d="M28,0 H72 V52 L50,62 L28,52 Z"/></clipPath>
+</defs>
+<g clip-path="url(#f)"><rect x="28" y="0" width="9.3" height="52" fill="#1a237e"/><rect x="36.8" y="0" width="9.3" height="52" fill="#ffffff"/><rect x="45.6" y="0" width="9.3" height="52" fill="#c62828"/><rect x="54.400000000000006" y="0" width="9.3" height="52" fill="#ffffff"/><rect x="63.2" y="0" width="9.3" height="52" fill="#1a237e"/></g>
+<path d="M28,0 H72 V52 L50,62 L28,52 Z" fill="none" stroke="#00000055" stroke-width="1"/>
+<circle cx="50" cy="66" r="5" fill="#e0b84a" stroke="#a8841c"/>
+<circle cx="50" cy="96" r="30" fill="url(#m)" stroke="#a8841c" stroke-width="2"/>
+<circle cx="50" cy="96" r="24" fill="none" stroke="#a8841c" stroke-width="1" opacity="0.7"/>
+<path d="M46,76 h8 v14 h14 v8 h-14 v14 h-8 v-14 h-14 v-8 h14 z" fill="#8b0000" stroke="#a8841c" stroke-width="1"/>
+</svg>

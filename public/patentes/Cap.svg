@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 138" width="100" height="138">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#274a2f"/><stop offset="1" stop-color="#1d3322"/></linearGradient></defs>
+<path d="M8,4 H92 Q96,4 96,8 V88 Q96,100 50,116 Q4,100 4,88 V8 Q4,4 8,4 Z" fill="url(#bg)" stroke="#e0b84a" stroke-width="2.5"/>
+<polygon points="50.00,15.00 53.44,23.27 62.36,23.98 55.56,29.81 57.64,38.52 50.00,33.85 42.36,38.52 44.44,29.81 37.64,23.98 46.56,23.27" fill="#e0b84a" stroke="#a8841c" stroke-width="1.5"/><polygon points="50.00,45.00 53.44,53.27 62.36,53.98 55.56,59.81 57.64,68.52 50.00,63.85 42.36,68.52 44.44,59.81 37.64,53.98 46.56,53.27" fill="#e0b84a" stroke="#a8841c" stroke-width="1.5"/><polygon points="50.00,75.00 53.44,83.27 62.36,83.98 55.56,89.81 57.64,98.52 50.00,93.85 42.36,98.52 44.44,89.81 37.64,83.98 46.56,83.27" fill="#e0b84a" stroke="#a8841c" stroke-width="1.5"/>
+<text x="50" y="133" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="15" fill="#e0b84a" letter-spacing="0.5">Cap</text>
+</svg>

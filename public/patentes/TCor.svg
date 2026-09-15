@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 138" width="100" height="138">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#274a2f"/><stop offset="1" stop-color="#1d3322"/></linearGradient></defs>
+<path d="M8,4 H92 Q96,4 96,8 V88 Q96,100 50,116 Q4,100 4,88 V8 Q4,4 8,4 Z" fill="url(#bg)" stroke="#e0b84a" stroke-width="2.5"/>
+<rect x="22" y="14" width="56" height="9" rx="2" fill="#e0b84a" stroke="#a8841c" stroke-width="1.5"/><polygon points="50.00,32.00 53.70,40.90 63.31,41.67 55.99,47.95 58.23,57.33 50.00,52.30 41.77,57.33 44.01,47.95 36.69,41.67 46.30,40.90" fill="#e0b84a" stroke="#a8841c" stroke-width="1.5"/><polygon points="50.00,68.00 53.70,76.90 63.31,77.67 55.99,83.95 58.23,93.33 50.00,88.30 41.77,93.33 44.01,83.95 36.69,77.67 46.30,76.90" fill="#e0b84a" stroke="#a8841c" stroke-width="1.5"/>
+<text x="50" y="133" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="15" fill="#e0b84a" letter-spacing="0.5">TCor</text>
+</svg>

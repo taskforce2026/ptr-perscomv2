@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 130" width="100" height="130">
+<defs>
+<radialGradient id="m" cx="0.4" cy="0.35" r="0.7"><stop offset="0" stop-color="#fff3c4"/><stop offset="0.5" stop-color="#cfd8dc"/><stop offset="1" stop-color="#78909c"/></radialGradient>
+<clipPath id="f"><path d="M28,0 H72 V52 L50,62 L28,52 Z"/></clipPath>
+</defs>
+<g clip-path="url(#f)"><rect x="28" y="0" width="9.3" height="52" fill="#0d47a1"/><rect x="36.8" y="0" width="9.3" height="52" fill="#0d47a1"/><rect x="45.6" y="0" width="9.3" height="52" fill="#ffffff"/><rect x="54.400000000000006" y="0" width="9.3" height="52" fill="#0d47a1"/><rect x="63.2" y="0" width="9.3" height="52" fill="#0d47a1"/></g>
+<path d="M28,0 H72 V52 L50,62 L28,52 Z" fill="none" stroke="#00000055" stroke-width="1"/>
+<circle cx="50" cy="66" r="5" fill="#cfd8dc" stroke="#78909c"/>
+<circle cx="50" cy="96" r="30" fill="url(#m)" stroke="#78909c" stroke-width="2"/>
+<circle cx="50" cy="96" r="24" fill="none" stroke="#78909c" stroke-width="1" opacity="0.7"/>
+<path d="M50,78 L64,84 V96 Q64,108 50,114 Q36,108 36,96 V84 Z" fill="#1565c0" stroke="#a8841c" stroke-width="1.5"/><polygon points="50.00,88.00 51.85,92.45 56.66,92.84 53.00,95.97 54.11,100.66 50.00,98.15 45.89,100.66 47.00,95.97 43.34,92.84 48.15,92.45" fill="#e0b84a" stroke="#a8841c" stroke-width="1.5"/>
+</svg>

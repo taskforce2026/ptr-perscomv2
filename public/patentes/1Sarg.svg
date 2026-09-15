@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 138" width="100" height="138">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#274a2f"/><stop offset="1" stop-color="#1d3322"/></linearGradient></defs>
+<path d="M8,4 H92 Q96,4 96,8 V88 Q96,100 50,116 Q4,100 4,88 V8 Q4,4 8,4 Z" fill="url(#bg)" stroke="#e0b84a" stroke-width="2.5"/>
+<path d="M18,38.400000000000006 L50,16 L82,38.400000000000006 L82,52.400000000000006 L50,30 L18,52.400000000000006 Z" fill="#e0b84a" stroke="#a8841c" stroke-width="1.5"/><path d="M18,54.400000000000006 L50,32 L82,54.400000000000006 L82,68.4 L50,46 L18,68.4 Z" fill="#e0b84a" stroke="#a8841c" stroke-width="1.5"/><path d="M18,70.4 L50,48 L82,70.4 L82,84.4 L50,62 L18,84.4 Z" fill="#e0b84a" stroke="#a8841c" stroke-width="1.5"/><path d="M18,72 Q50,98.4 82,72 L82,84 Q50,110.4 18,84 Z" fill="#e0b84a" stroke="#a8841c" stroke-width="1.5"/><path d="M18,86 Q50,112.4 82,86 L82,98 Q50,124.4 18,98 Z" fill="#e0b84a" stroke="#a8841c" stroke-width="1.5"/>
+<text x="50" y="133" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="13" fill="#e0b84a" letter-spacing="0.5">1Sarg</text>
+</svg>
