@@ -1,0 +1,191 @@
+@import "tailwindcss";
+
+@theme {
+  --color-gold-200: #f6e7b2;
+  --color-gold-300: #f0d78c;
+  --color-gold-400: #e4c56a;
+  --color-gold-500: #d4b45a;
+  --color-gold-600: #b8943a;
+  --color-forest-950: #060a07;
+  --color-forest-900: #0b130d;
+  --color-forest-850: #0e1711;
+  --color-forest-800: #121c15;
+  --color-forest-700: #18241c;
+  --font-display: "Cinzel", serif;
+  --font-sans: "Rajdhani", "Segoe UI", sans-serif;
+}
+
+html,
+body {
+  min-height: 100%;
+  background: radial-gradient(1200px 600px at 50% -10%, #16301c 0%, #060a07 55%);
+  color: #e7efe8;
+}
+
+body {
+  font-family: var(--font-sans);
+  letter-spacing: 0.01em;
+}
+
+::selection {
+  background: rgba(212, 180, 90, 0.35);
+  color: #fff8dc;
+}
+
+.panel {
+  background: linear-gradient(180deg, rgba(16, 28, 20, 0.92), rgba(8, 14, 10, 0.92));
+  border: 1px solid rgba(212, 180, 90, 0.22);
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.35);
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+  border-radius: 0.7rem;
+  padding: 0.55rem 1rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  transition: 0.15s ease;
+  border: 1px solid transparent;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.btn-primary {
+  background: linear-gradient(180deg, #e8d07a, #c9a227);
+  color: #1a1404;
+  box-shadow: 0 0 18px rgba(212, 180, 90, 0.25);
+}
+
+.btn-primary:hover {
+  filter: brightness(1.08);
+}
+
+.btn-secondary {
+  background: rgba(18, 48, 28, 0.8);
+  color: #d9f5df;
+  border-color: rgba(74, 140, 90, 0.55);
+}
+
+.btn-secondary:hover {
+  border-color: #86efac;
+}
+
+.btn-ghost {
+  background: transparent;
+  color: #f0d78c;
+  border-color: rgba(212, 180, 90, 0.25);
+}
+
+.btn-ghost:hover {
+  background: rgba(212, 180, 90, 0.08);
+}
+
+.btn-danger {
+  background: rgba(127, 29, 29, 0.35);
+  color: #fecaca;
+  border-color: rgba(248, 113, 113, 0.4);
+}
+
+.input {
+  width: 100%;
+  border-radius: 0.7rem;
+  background: rgba(6, 10, 7, 0.7);
+  border: 1px solid rgba(212, 180, 90, 0.22);
+  color: #f8fafc;
+  padding: 0.55rem 0.75rem;
+  outline: none;
+}
+
+.input:focus {
+  border-color: #e4c56a;
+  box-shadow: 0 0 0 3px rgba(212, 180, 90, 0.15);
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.92rem;
+}
+
+.table th {
+  text-align: left;
+  font-size: 0.7rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #d4b45a;
+  padding: 0.75rem 0.9rem;
+  border-bottom: 1px solid rgba(212, 180, 90, 0.18);
+}
+
+.table td {
+  padding: 0.75rem 0.9rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+}
+
+.scanlines {
+  pointer-events: none;
+  background: repeating-linear-gradient(
+    to bottom,
+    rgba(180, 255, 210, 0.035),
+    rgba(180, 255, 210, 0.035) 1px,
+    transparent 1px,
+    transparent 3px
+  );
+}
+
+.holo-glow {
+  box-shadow:
+    0 0 0 1px rgba(125, 255, 196, 0.25),
+    0 0 24px rgba(80, 255, 170, 0.18),
+    inset 0 0 30px rgba(80, 255, 170, 0.08);
+}
+
+@keyframes spin-slow {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}
+
+@keyframes pulse-ring {
+  0%,
+  100% {
+    opacity: 0.35;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.8;
+    transform: scale(1.04);
+  }
+}
+
+.spin-y {
+  animation: spin-slow 28s linear infinite;
+}
+
+.pulse-ring {
+  animation: pulse-ring 3.6s ease-in-out infinite;
+}
+
+@media print {
+  body {
+    background: #f4ecd4 !important;
+  }
+  header,
+  nav,
+  aside {
+    display: none !important;
+  }
+  main {
+    padding: 0 !important;
+    max-width: none !important;
+  }
+  .doc-militar {
+    box-shadow: none !important;
+  }
+}
